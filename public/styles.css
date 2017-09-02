@@ -1,0 +1,77 @@
+#table_id{
+    margin-left: 400px;
+    margin-top: 5px;
+    border: 2px solid black;
+    width:350px;
+    height:550px;
+}
+#head_background{
+    background-color: darkolivegreen;
+}
+#add_todo{
+    font-family: "Courier New";
+    font-weight: bold;
+}
+#head{
+    margin-left: 100px;
+    font-size: 30px;
+    font-family: "Calibri";
+    font-weight:bold;
+    padding-bottom: 5px;
+
+    background-color:darkolivegreen ;
+}
+
+#active_todos{
+padding-left:20px;
+font-weight:bold;
+
+
+
+}
+#active{
+    font-size:1px ;
+    color : blue;
+
+}
+#completed
+{
+    color : green;
+    text-decoration : line-through;
+}
+#delete1{
+    margin-left: 40px;
+}
+#border{
+    /*padding-top:20px;*/
+    border-top: 1px solid;
+    border-color: black;
+}
+.item{
+    padding-left:15px;
+    display: inline-block;
+    font-weight: bold;
+}
+#left{
+    padding-left:140px;
+    color:blue;
+    text-decoration: underline;
+}
+#left1{
+    padding-left: 300px;
+    color:blue;
+    text-decoration: underline;
+}
+a:hover{
+    cursor:pointer;
+    color: red;
+}
+
+#todo_data{
+    font-size:16px;
+}
+#deleted{
+    color : red;
+    text-decoration : line-through;
+
+}
