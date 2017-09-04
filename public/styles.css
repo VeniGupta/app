@@ -22,6 +22,22 @@
     background-color:darkolivegreen ;
 }
 
+
+
+.breathHorizontal{
+    background-color: #ffffff;
+    border: none;
+
+    color: #d9243d;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
 #active_todos{
 padding-left:20px;
 font-weight:bold;
