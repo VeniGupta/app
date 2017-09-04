@@ -59,7 +59,7 @@ function createTodoElement(key, todo_object){
         row.appendChild(column);
 
         var delete_button1 = document.createElement("button");
-        delete_button1.innerHTML = "DELETE";
+        delete_button1.innerHTML = "x";
         delete_button1.setAttribute("onclick", "deleteTodosAJAX("+key+")");
         delete_button1.setAttribute("class", "breathHorizontal");
         delete_button1.setAttribute("id","delete1");
@@ -94,7 +94,7 @@ function createTodoElement(key, todo_object){
         row.appendChild(column);
 
         var delete_button2 = document.createElement("button");
-        delete_button2.innerText = "Delete";
+        delete_button2.innerText = "x";
         delete_button2.setAttribute("onclick", "deleteTodosAJAX("+key+")");
         delete_button2.setAttribute("class", "breathHorizontal");
         row.appendChild(delete_button2);
